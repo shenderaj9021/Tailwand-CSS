@@ -1,0 +1,24 @@
+{
+  "name": "tailwand-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css" : "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shenderaj9021/Tailwand-CSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shenderaj9021/Tailwand-CSS/issues"
+  },
+  "homepage": "https://github.com/shenderaj9021/Tailwand-CSS#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
